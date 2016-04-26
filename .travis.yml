@@ -1,4 +1,4 @@
 before_install:
  - sudo apt-get install -qq algol68g
 language: cpp
-script: a68 -listing hello.a68 && cat hello.l
+script: a68g -listing hello.a68 && cat hello.l
